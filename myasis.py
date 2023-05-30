@@ -18,7 +18,7 @@ mic = sr.Microphone(device_index=1)
 
 # Set up Adafruit IO credentials
 aio_username = 'udith2005'
-aio_key = 'aio_zcBr4160ijTpvuXBw3P0DFtJJoiP'
+aio_key = ''
 toggle1_feed_name = 'led1'
 toggle2_feed_name = 'led2'
 
