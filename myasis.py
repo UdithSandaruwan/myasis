@@ -7,7 +7,7 @@ import json
 from Adafruit_IO import Client, RequestError, Feed
 
 # Set up OpenAI API key and text-to-speech engine
-openai.api_key = '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'
+openai.api_key = ''
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
